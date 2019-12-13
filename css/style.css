@@ -442,7 +442,7 @@ body {
 }
 .li-marker:before {
   content:"";
-  /* <i class="fa fa-long-arrow-right" aria-hidden="true"></i>; */
+  /* <i class="fa fa-long-arrow-right" aria-hidden="true {}</i>; */
 }
 .li-arrow {
   color: #e1524b;
@@ -496,15 +496,6 @@ body {
   margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
 .why-tooltip {
   height: 100%;
   display: flex;
@@ -542,4 +533,115 @@ body {
 }
 .tooltip.bs-tooltip-top .arrow:before {
   border-bottom-color: #f8f8f8 !important;
+}
+
+
+
+
+.info-section {
+  margin-top: 70px;
+  background-color: #76c7c0   !important;
+  color: #ffffff;
+}
+
+.info-brand-bottom {}
+.brand-bottom {
+
+}
+.sub-brand-bottom {}
+
+
+.info-brand {}
+.contacts-company {}
+.contacts-company-phone {}
+.contacts-company-phone-title {}
+.contacts-company-phone-value {}
+.contacts-company-mail {}
+.contacts-company-mail-title {}
+.contacts-company-mail-value {}
+.info-company-bottom {}
+.company-tytle {}
+.company-links {
+
+  /* .logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1500px;
+    height: 2600px;
+    z-index: 201;
+  } */
+  /* .versus {
+    font-size: 25px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 287.937px;
+    top: 54.581px;
+    z-index: 200;
+  } */
+  /* .MODUS {
+    font-size: 30px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 169.844px;
+    top: 56.828px;
+    z-index: 199;
+  } */
+  
+
+}
+
+
+
+
+.info-community-bottom {}
+.community-tytle {}
+.community-links {}
+.company-blog {}
+.blog-title {}
+.blog-link {}
+.blog-title {}
+.blog-item {}
+
+.item-information {}
+.item-date {}
+                
+              
+            
+          
+        
+
+
+        
+      
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+.company-link-item,
+.community-link-item {
+  list-style-type: none;
+  /* margin-left: -40px; */
+}
+.company-link-item:before,
+.community-link-item:before {
+  content:"";
+}
+.li-colored {
+  /* color: #e1524b; */
 }
