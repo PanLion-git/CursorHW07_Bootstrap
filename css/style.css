@@ -540,77 +540,146 @@ body {
 
 .info-section {
   margin-top: 70px;
-  background-color: #76c7c0   !important;
+  background-color: #76c7c0;
   color: #ffffff;
+  background-image: url("../img/rule-bottom.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-bottom: 30px;
+  /* border: 1px solid red; */
 }
 
-.info-brand-bottom {}
 .brand-bottom {
-
+  margin-top: 37px;
+  display: flex;
+  align-items: baseline;
 }
-.sub-brand-bottom {}
-
-
-.info-brand {}
-.contacts-company {}
-.contacts-company-phone {}
-.contacts-company-phone-title {}
-.contacts-company-phone-value {}
-.contacts-company-mail {}
-.contacts-company-mail-title {}
-.contacts-company-mail-value {}
-.info-company-bottom {}
-.company-tytle {}
-.company-links {
-
-  /* .logo {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1500px;
-    height: 2600px;
-    z-index: 201;
-  } */
-  /* .versus {
-    font-size: 25px;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: left;
-    position: absolute;
-    left: 287.937px;
-    top: 54.581px;
-    z-index: 200;
-  } */
-  /* .MODUS {
-    font-size: 30px;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: left;
-    position: absolute;
-    left: 169.844px;
-    top: 56.828px;
-    z-index: 199;
-  } */
-  
-
+.brand-bottom-modus {
+  font-size: 30px;
+  font-weight: 800;
+  /* border: 1px solid red; */
+}
+.sub-brand-bottom-versus {
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 10px;
+  /* border: 1px solid blue; */
 }
 
+.info-brand {
+  margin-top: 25px;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.contacts-company {
+  margin-top: 32px;
+}
+.contacts-company-phone,
+.contacts-company-mail {
+  margin-top: 15px;
+  display: flex;
+  align-items: baseline;
+}
+.contacts-company-phone-title,
+.contacts-company-mail-title {
+  /* width: 55px;
+  height: 14px; */
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 400;
+}
+.contacts-company-phone-value,
+.contacts-company-mail-value {
+  /* width: 149px;
+  height: 21px; */
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 600;
+  font-style: italic;  
+}
 
 
 
-.info-community-bottom {}
-.community-tytle {}
-.community-links {}
-.company-blog {}
-.blog-title {}
-.blog-link {}
-.blog-title {}
-.blog-item {}
+.info-company-bottom,
+.info-community-bottom {
+  margin-top: 53px;
+}
+.company-tytle,
+.community-tytle {
+  font-size: 20px;
+  line-height: 24px;
+  color: #3b6360;
+  font-weight: 700;  
+}
+.company-links,
+.community-links {
+  margin-top: 31px;
 
-.item-information {}
-.item-date {}
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 400;
+
+}
+
+
+.company-blog {
+
+
+}
+.blog-bottom {
+  margin-top: 53px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+  /* background-color: #b91d14; */
+}
+.blog-bottom-link {
+  font-size: 25px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+}
+.blog-bottom-title {
+  margin-left: 15px;
+  font-size: 25px;
+  line-height: 24px;
+  font-weight: 600;
+  /* font-style: italic; */
+}
+.blog-item {
+  /* width: 280px;
+  height: 33px; */
+  font-size: 13px;
+  line-height: 20px;
+  /* color: #ffffff;
+  font-family: "Open Sans"; */
+  font-weight: 400;  
+  margin-bottom: 15px;
+}
+.image-pattern {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #5e9f9a;
+  background-image: url("../img/small.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: contain; */
+  /* border: 1px solid red; */
+}
+
+.item-information {
+  color: #ffffff;
+  /* border: 1px solid blue; */
+
+}
+.item-date {
+  color: #42706c;
+  font-weight: 400;
+}
                 
               
             
@@ -622,9 +691,45 @@ body {
       
 
     
+/* ******************* */
+/* section - 7 Footer  */
+/* ******************* */
 
   
 
+.container-fluid {}
+.footer-fluid,
+.footer {
+  color: #ffffff;
+  background-color: #6ab3ac;
+}
+.footer {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+.row {}
+.col-lg-1 {}
+.footer-modus-versus-logo {
+  /* width: 362px;
+  height: 13px; */
+  font-size: 12px;
+  line-height: 22px;
+  /* 
+  font-family: "Open Sans"; */
+  font-weight: 400;
+}
+
+
+.social {
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: space-between;
+}
+.face-book {}
+.insatgram {}
+.twitter {}
+.rss {}
 
 
 
@@ -645,3 +750,13 @@ body {
 .li-colored {
   /* color: #e1524b; */
 }
+
+
+
+
+
+
+
+
+
+
